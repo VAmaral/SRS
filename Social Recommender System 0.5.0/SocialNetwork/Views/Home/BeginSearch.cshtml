@@ -13,7 +13,7 @@
 <h2>Resultados</h2>
 @if(@ViewData["list"]!=null){
 foreach(string item in (@ViewData["list"]as IEnumerable<string>)){
-    string aux=item;
+    
     <li>
         <a href="@item">"@item"</a>
     </li>

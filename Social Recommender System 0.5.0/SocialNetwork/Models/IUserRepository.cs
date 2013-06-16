@@ -14,8 +14,6 @@ namespace SocialNetwork.Models
          void AddUser(string username, string email, bool isEnglish);
          void AddTerm(int id, string term);
          void AddMultiTerms(int id, LinkedList<string> terms);
-         void RemoveTerm(int id, string term);
-         void RemoveMultiTerms(int id, LinkedList<string> terms);
          Dictionary<string, LinkedList<int>> GetAllTerms(bool isEnglish);
          LinkedList<string> CollectTerms(LinkedList<string> terms, LinkedList<string> userTerms);
          void SearchLuceneDatabase(bool isEnglish);

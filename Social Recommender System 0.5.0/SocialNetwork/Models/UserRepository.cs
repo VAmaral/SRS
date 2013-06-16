@@ -47,16 +47,6 @@ namespace SocialNetwork.Models
         
         }
 
-        public void RemoveTerm(int id, string term) {
-            users[id].RemoveTerm(term);
-        }
-
-        public void RemoveMultiTerms(int id, LinkedList<string> terms) {
-            foreach (string t in terms){
-                RemoveTerm(id, t);
-            }
-        }
-
         public Dictionary<string, LinkedList<int>> GetAllTerms(bool isEnglish)
         {
             LinkedList<string> terms = new LinkedList<string>();

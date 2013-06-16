@@ -7,6 +7,7 @@ using System.Web.Http;
 using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
+using HtmlAgilityPack;
 using SocialNetwork.Models;
 
 namespace SocialNetwork
@@ -20,12 +21,14 @@ namespace SocialNetwork
         {
             string path1 = Server.MapPath("~/./");
             LuceneController.LuceneUsage.basePath = path1.Substring(0, path1.Length - 14);
-            RepositoryLocator.GetRepository().AddUser("Vitor", "vitor1987@hotmail.com", false);
-            LinkedList<string> terms= new LinkedList<string>();
+            RepositoryLocator.GetRepository().AddUser("Utilizador", "srsuser@hotmail.com", false);//password:iamaUser
+            LinkedList<string> terms = new LinkedList<string>();
             terms.AddLast("museu");
             RepositoryLocator.GetRepository().AddMultiTerms(0, terms);
             AbotCrawler.Crawler.CrawlerInit();
-           //SocialNetwork.Models.ControlModule.PeriodicMaintenance();
+            Dictionary<string, HtmlNode> crawled = AbotCrawler.Crawler.RunToLucene();
+            LuceneController.LuceneUsage.TreatMultiUrl(crawled);
+            SocialNetwork.Models.ControlModule.PeriodicMaintenance();
 
             AreaRegistration.RegisterAllAreas();
            

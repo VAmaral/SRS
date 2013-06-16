@@ -27,8 +27,8 @@ namespace SocialNetwork.Models
 
         public static void PeriodicMaintenance() {
 
-            Dictionary<string, HtmlNode> crawled= AbotCrawler.Crawler.RunToLucene();
-            LuceneController.LuceneUsage.TreatMultiUrl(crawled);
+            //Dictionary<string, HtmlNode> crawled = AbotCrawler.Crawler.RunToLucene();
+            //LuceneController.LuceneUsage.TreatMultiUrl(crawled);
             RepositoryLocator.GetRepository().SearchLuceneDatabase();
             Dictionary<string, LinkedList<string>> emails_newUrls = RepositoryLocator.GetRepository().updateUsers();
 

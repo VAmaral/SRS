@@ -19,22 +19,20 @@ namespace SocialNetwork.Controllers
             return View();
         }
 
+        public ActionResult Simulate() {
+
+            //IUserRepository user = RepositoryLocator.GetRepository();
+            //user.SearchLuceneDatabase(false);
+            ControlModule.PeriodicMaintenance();
+            return RedirectToAction("Index");
+            //return View("SendEmail", user.updateUsers());
+        
+        }
+
         public ActionResult About()
         {
-            
-            IUserRepository user = RepositoryLocator.GetRepository();
-            //user.AddUser("Vitor", "vitor1987@hotmail.com", false);
-            string[] terms = { "museu", "Barcelona" };
-            user.AddMultiTerms(0, new LinkedList<string>(terms));
-            AbotCrawler.Crawler.CrawlerInit();
-            SocialNetwork.Models.ControlModule.PeriodicMaintenance();
 
-
-            
-            LuceneController.LuceneUsage.Arquive("Eu fui a Barcelona e vi lá um museu muita fixe", "www.vaiaomuseu.com");
-            user.SearchLuceneDatabase(false);
-            return View("SendEmail",user.updateUsers());
-
+            return RedirectToAction("Index");
             
         }
 
@@ -60,9 +58,24 @@ namespace SocialNetwork.Controllers
             return View();
         }
 
-        //public ActionResult Profile(string user)
-        //{
-        //    return View();
-        //}
+        public ActionResult Profile()
+        {
+           return View(RepositoryLocator.GetRepository().GetUser(0));
+        }
+
+        public ActionResult ChangeTerms(int id) {
+
+            return View(RepositoryLocator.GetRepository().GetUser(id));
+        }
+        [HttpPost]
+        public ActionResult ChangeTerms(int id, string terms) {
+            LinkedList<string> newTermList = new LinkedList<string>();
+            IUserRepository repo= RepositoryLocator.GetRepository();
+
+            foreach (string s in terms.Split(' ')) newTermList.AddLast(s);
+            repo.GetUser(id).ResetTastes(newTermList);
+            return RedirectToAction("Profile");
+        
+        }
     }
 }
