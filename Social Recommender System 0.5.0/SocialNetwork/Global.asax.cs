@@ -25,7 +25,7 @@ namespace SocialNetwork
             terms.AddLast("museu");
             RepositoryLocator.GetRepository().AddMultiTerms(0, terms);
             AbotCrawler.Crawler.CrawlerInit();
-           // SocialNetwork.Models.ControlModule.PeriodicMaintenance();
+           SocialNetwork.Models.ControlModule.PeriodicMaintenance();
 
             AreaRegistration.RegisterAllAreas();
            
