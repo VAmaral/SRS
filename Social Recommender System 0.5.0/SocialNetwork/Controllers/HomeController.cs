@@ -23,7 +23,7 @@ namespace SocialNetwork.Controllers
         {
             
             IUserRepository user = RepositoryLocator.GetRepository();
-            user.AddUser("Vitor", "vitor1987@hotmail.com", false);
+            //user.AddUser("Vitor", "vitor1987@hotmail.com", false);
             string[] terms = { "museu", "Barcelona" };
             user.AddMultiTerms(0, new LinkedList<string>(terms));
             AbotCrawler.Crawler.CrawlerInit();
