@@ -27,7 +27,7 @@ namespace SocialNetwork.Controllers
             string[] terms = { "museu", "Barcelona" };
             user.AddMultiTerms(0, new LinkedList<string>(terms));
             AbotCrawler.Crawler.CrawlerInit();
-          
+            SocialNetwork.Models.ControlModule.PeriodicMaintenance();
 
 
             
