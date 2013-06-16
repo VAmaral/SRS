@@ -29,6 +29,12 @@ namespace SocialNetwork.Controllers
         
         }
 
+        public ActionResult SimulateCrawl() {
+            Dictionary<string, HtmlNode> crawled = AbotCrawler.Crawler.RunToLucene();
+            LuceneController.LuceneUsage.TreatMultiUrl(crawled);
+            return RedirectToAction("Index");
+        }
+
         public ActionResult About()
         {
 

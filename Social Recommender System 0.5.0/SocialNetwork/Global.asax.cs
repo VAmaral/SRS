@@ -26,8 +26,7 @@ namespace SocialNetwork
             terms.AddLast("museu");
             RepositoryLocator.GetRepository().AddMultiTerms(0, terms);
             AbotCrawler.Crawler.CrawlerInit();
-            Dictionary<string, HtmlNode> crawled = AbotCrawler.Crawler.RunToLucene();
-            LuceneController.LuceneUsage.TreatMultiUrl(crawled);
+            
             SocialNetwork.Models.ControlModule.PeriodicMaintenance();
 
             AreaRegistration.RegisterAllAreas();
