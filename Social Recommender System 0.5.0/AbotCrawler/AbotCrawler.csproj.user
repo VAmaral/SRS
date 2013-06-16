@@ -12,6 +12,6 @@
     <VerifyUploadedFiles>false</VerifyUploadedFiles>
   </PropertyGroup>
   <PropertyGroup>
-    <ReferencePath>..\lib\</ReferencePath>
+    <ReferencePath>lib\</ReferencePath>
   </PropertyGroup>
 </Project>
