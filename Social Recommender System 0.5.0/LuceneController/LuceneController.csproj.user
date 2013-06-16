@@ -3,4 +3,7 @@
   <PropertyGroup>
     <ProjectView>ShowAllFiles</ProjectView>
   </PropertyGroup>
+  <PropertyGroup>
+    <ReferencePath>C:\Pastas Pessoais\Pedro\ISEL\Projecto\SRS\Social Recommender System 0.5.0\LuceneController\lib\</ReferencePath>
+  </PropertyGroup>
 </Project>
