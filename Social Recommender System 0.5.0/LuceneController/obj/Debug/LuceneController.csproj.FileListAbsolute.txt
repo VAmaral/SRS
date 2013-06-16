@@ -41,3 +41,10 @@ C:\Users\Vitor\Dropbox\Projecto\lucene+abot\LuceneController\bin\Debug\LuceneCon
 C:\Users\Vitor\Dropbox\Projecto\lucene+abot\LuceneController\bin\Debug\Lucene.Net.dll
 C:\Users\Vitor\Dropbox\Projecto\lucene+abot\LuceneController\obj\Debug\LuceneController.exe
 C:\Users\Vitor\Dropbox\Projecto\lucene+abot\LuceneController\obj\Debug\LuceneController.pdb
+C:\Pastas Pessoais\Pedro\ISEL\Projecto\lucene+abot\LuceneController\obj\Debug\LuceneController.exe
+C:\Pastas Pessoais\Pedro\ISEL\Projecto\lucene+abot\LuceneController\obj\Debug\LuceneController.pdb
+C:\Pastas Pessoais\Pedro\ISEL\Projecto\lucene+abot\LuceneController\bin\Debug\LuceneController.exe.config
+C:\Pastas Pessoais\Pedro\ISEL\Projecto\lucene+abot\LuceneController\bin\Debug\LuceneController.exe
+C:\Pastas Pessoais\Pedro\ISEL\Projecto\lucene+abot\LuceneController\bin\Debug\LuceneController.pdb
+C:\Pastas Pessoais\Pedro\ISEL\Projecto\lucene+abot\LuceneController\bin\Debug\HtmlAgilityPack.dll
+C:\Pastas Pessoais\Pedro\ISEL\Projecto\lucene+abot\LuceneController\bin\Debug\Lucene.Net.dll

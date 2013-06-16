@@ -1,0 +1,6 @@
+C:\temp\AbotCrawler.exe.config
+C:\temp\AbotCrawler.exe
+C:\temp\AbotCrawler.pdb
+C:\Pastas Pessoais\Pedro\ISEL\Projecto\lucene+abot\AbotCrawler\obj\Release\AbotCrawler.csprojResolveAssemblyReference.cache
+C:\Pastas Pessoais\Pedro\ISEL\Projecto\lucene+abot\AbotCrawler\obj\Release\AbotCrawler.exe
+C:\Pastas Pessoais\Pedro\ISEL\Projecto\lucene+abot\AbotCrawler\obj\Release\AbotCrawler.pdb

@@ -1,0 +1,5 @@
+C:\temp\SocialNetwork.dll
+C:\temp\SocialNetwork.pdb
+C:\Pastas Pessoais\Pedro\ISEL\Projecto\lucene+abot\SocialNetwork\obj\Release\SocialNetwork.csprojResolveAssemblyReference.cache
+C:\Pastas Pessoais\Pedro\ISEL\Projecto\lucene+abot\SocialNetwork\obj\Release\SocialNetwork.dll
+C:\Pastas Pessoais\Pedro\ISEL\Projecto\lucene+abot\SocialNetwork\obj\Release\SocialNetwork.pdb

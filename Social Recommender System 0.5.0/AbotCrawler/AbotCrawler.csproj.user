@@ -3,4 +3,7 @@
   <PropertyGroup>
     <ProjectView>ShowAllFiles</ProjectView>
   </PropertyGroup>
+  <PropertyGroup>
+    <ReferencePath>C:\Pastas Pessoais\Pedro\ISEL\Projecto\lucene+abot\AbotCrawler\lib\</ReferencePath>
+  </PropertyGroup>
 </Project>

@@ -1,0 +1,6 @@
+C:\temp\LuceneController.exe.config
+C:\temp\LuceneController.exe
+C:\temp\LuceneController.pdb
+C:\Pastas Pessoais\Pedro\ISEL\Projecto\lucene+abot\LuceneController\obj\Release\LuceneController.csprojResolveAssemblyReference.cache
+C:\Pastas Pessoais\Pedro\ISEL\Projecto\lucene+abot\LuceneController\obj\Release\LuceneController.exe
+C:\Pastas Pessoais\Pedro\ISEL\Projecto\lucene+abot\LuceneController\obj\Release\LuceneController.pdb
