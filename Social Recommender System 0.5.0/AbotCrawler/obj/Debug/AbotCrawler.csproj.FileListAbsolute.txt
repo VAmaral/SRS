@@ -28,3 +28,10 @@ C:\Users\Vitor\Dropbox\Projecto\lucene+abot\AbotCrawler\bin\Debug\AbotCrawler.pd
 C:\Users\Vitor\Dropbox\Projecto\lucene+abot\AbotCrawler\obj\Debug\AbotCrawler.exe
 C:\Users\Vitor\Dropbox\Projecto\lucene+abot\AbotCrawler\obj\Debug\AbotCrawler.pdb
 C:\Users\Vitor\Dropbox\Projecto\lucene+abot\AbotCrawler\obj\Debug\AbotCrawler.csprojResolveAssemblyReference.cache
+C:\Users\Vitor\Documents\GitHub\SRS\Social Recommender System 0.5.0\AbotCrawler\bin\Debug\AbotCrawler.exe.config
+C:\Users\Vitor\Documents\GitHub\SRS\Social Recommender System 0.5.0\AbotCrawler\bin\Debug\AbotCrawler.exe
+C:\Users\Vitor\Documents\GitHub\SRS\Social Recommender System 0.5.0\AbotCrawler\bin\Debug\AbotCrawler.pdb
+C:\Users\Vitor\Documents\GitHub\SRS\Social Recommender System 0.5.0\AbotCrawler\bin\Debug\Abot.dll
+C:\Users\Vitor\Documents\GitHub\SRS\Social Recommender System 0.5.0\AbotCrawler\obj\Debug\AbotCrawler.csprojResolveAssemblyReference.cache
+C:\Users\Vitor\Documents\GitHub\SRS\Social Recommender System 0.5.0\AbotCrawler\obj\Debug\AbotCrawler.exe
+C:\Users\Vitor\Documents\GitHub\SRS\Social Recommender System 0.5.0\AbotCrawler\obj\Debug\AbotCrawler.pdb

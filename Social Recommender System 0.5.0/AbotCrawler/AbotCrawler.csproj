@@ -32,8 +32,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Abot">
-      <HintPath>..\..\..\..\..\..\..\Pastas Pessoais\Pedro\ISEL\Projecto\Abotv1.1_Bin\Abot.dll</HintPath>
+    <Reference Include="Abot, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\Abot.dll</HintPath>
     </Reference>
     <Reference Include="AutoMapper">
       <HintPath>..\..\..\..\..\..\..\Pastas Pessoais\Pedro\ISEL\Projecto\Abotv1.1_Bin\AutoMapper.dll</HintPath>
