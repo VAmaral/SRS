@@ -20,7 +20,7 @@ namespace SocialNetwork
         {
             string path1 = Server.MapPath("~/./");
             LuceneController.LuceneUsage.basePath = path1.Substring(0, path1.Length - 14);
-            RepositoryLocator.GetRepository().AddUser("Vitor", "vitor1987@hotmail.com", false);
+            //RepositoryLocator.GetRepository().AddUser("Vitor", "vitor1987@hotmail.com", false);
             LinkedList<string> terms= new LinkedList<string>();
             terms.AddLast("museu");
             RepositoryLocator.GetRepository().AddMultiTerms(0, terms);
